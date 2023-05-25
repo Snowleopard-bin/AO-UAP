@@ -102,9 +102,9 @@ class UAP(nn.Module):
 
 class Attack:
     def __init__(self):
-        self.TIMIT_dataset = '/mnt/hhddata2t1/yejianbin/TIMIT_dataset/TIMIT/test'
-        # self.dataset = '/mnt/hhddata2t1/yejianbin/SpeechCommand.npz'
-        self.dataset = '/mnt/hhddata2t1/yejianbin/AudioMNIST.npz'   # BadNet2
+        self.TIMIT_dataset = './TIMIT_dataset/TIMIT/test'
+        # self.dataset = '/mnt/hhddata2t1/<>/SpeechCommand.npz'
+        self.dataset = './AudioMNIST.npz'   # BadNet2
 
         arch = X_vector()
         # arch = OneDCNN()

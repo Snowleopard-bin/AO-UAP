@@ -146,8 +146,8 @@ def projection_operator(v, norm_bound, p):
 
 class Attack:
     def __init__(self):
-        self.TIMIT_dataset = '/mnt/hhddata2t1/yejianbin/TIMIT_dataset/TIMIT/test'
-        self.dataset = '/mnt/hhddata2t1/yejianbin/AudioMNIST.npz'
+        self.TIMIT_dataset = './TIMIT_dataset/TIMIT/test'
+        self.dataset = './AudioMNIST.npz'
 
         arch = OneDCNN()
         checkpoint = 'checkpoint/BadNet1.pth'
